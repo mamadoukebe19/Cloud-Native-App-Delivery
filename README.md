@@ -2,7 +2,7 @@
 
 Application de gestion d'inventaire informatique pour formation DevOps.
 
-## 🚀 Démarrage rapide
+##  Démarrage rapide
 
 ```bash
 # Installation
@@ -25,7 +25,7 @@ NODE_ENV=production
 - `GET /healthz` - Liveness probe (Kubernetes)
 - `GET /ready` - Readiness probe (Kubernetes)
 
-## 🐳 Docker
+##  Docker
 
 ```bash
 # Build
@@ -35,6 +35,6 @@ docker build -t techlogix-inventory .
 docker run -p 3000:3000 techlogix-inventory
 ```
 
-## ☸️ Kubernetes
+## Kubernetes
 
 L'application affiche l'hostname et l'IP du conteneur pour démontrer le load balancing.
